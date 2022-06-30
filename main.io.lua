@@ -1,5 +1,5 @@
 --version  = 1
---Eplanner version = 2022.6.8202.25836
+--Eplanner version = 2022.6.8216.27630
 ------------------------------------------------------------------------------
 PAC_name = 'T1-Scales-Demo'
 PAC_id = '64660'
@@ -37,6 +37,26 @@ devices =
         dtype   = 17,
         subtype = 3, -- WT_RS232
         article = 'WT_RS232',
+        AO =
+            {
+                {
+                node          = 1,
+                offset        = 0,
+                physical_port = 2,
+                logical_port  = 1,
+                module_offset = 0
+                },
+            },
+        AI =
+            {
+                {
+                node          = 1,
+                offset        = 0,
+                physical_port = 2,
+                logical_port  = 1,
+                module_offset = 0
+                },
+            },
         par = {0 --[[P_C0]] }
         },
 
